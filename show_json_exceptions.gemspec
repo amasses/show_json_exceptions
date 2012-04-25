@@ -4,9 +4,8 @@ require File.expand_path('../lib/show_json_exceptions/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Matthew Savage"]
   gem.email         = ["matt@amasses.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Changes the default rails 'exception' behavior to render JSON instead of a HTML view (e.g. 404, 500 errors etc)}
+  gem.homepage      = "https://github.com/amasses/show_json_exceptions"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
