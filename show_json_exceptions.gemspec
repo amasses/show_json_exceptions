@@ -5,6 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Matthew Savage"]
   gem.email         = ["matt@amasses.net"]
   gem.description   = %q{Changes the default rails 'exception' behavior to render JSON instead of a HTML view (e.g. 404, 500 errors etc)}
+  gem.summary       = %q{Changes the default rails 'exception' behavior to render JSON instead of a HTML view (e.g. 404, 500 errors etc)}
   gem.homepage      = "https://github.com/amasses/show_json_exceptions"
 
   gem.files         = `git ls-files`.split($\)

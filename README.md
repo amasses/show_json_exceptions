@@ -41,6 +41,9 @@ If your application is running in development mode you will also see a backtrace
     	]
     }
 
+## No tests?
+
+Yes well, this is really a simple gem.. in fact you can just add the module and the config.middleware statements yourself, but I wanted to wrap this in a gem for reuse. If you really think it needs tests then bug me and I'll see what I can do...
 
 ## Contributing
 
