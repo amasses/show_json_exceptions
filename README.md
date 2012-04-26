@@ -23,7 +23,7 @@ When an error occurs in your application you will see a response similar to the 
     {
     	"successful": false,
     	"result": {},
-    	"error_messages": ["Exception: No route matches [GET] \"/poo/poo\"]
+    	"error_messages": ["Exception: No route matches [GET] \"/non/existent\"]
     }
 
 If your application is running in development mode you will also see a backtrace in your error_messages array:
@@ -32,7 +32,7 @@ If your application is running in development mode you will also see a backtrace
     	"successful": false,
     	"result": {},
     	"error_messages": [
-    		"Exception: No route matches [GET] \"/poo/poo\",
+    		"Exception: No route matches [GET] \"/non/existent\",
     		{
     			"backtrace": [
     			# ... Backtrace lines here as an array...
